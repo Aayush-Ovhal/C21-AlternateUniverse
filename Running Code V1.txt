@@ -1,0 +1,27 @@
+
+let Jupiter;
+var planet2;
+
+function preload() {
+
+  Jupiter = loadImage('images/jupiter.png');
+}
+
+function setup() {
+  Image(Jupiter,100,100,20,20);
+  createCanvas(1350,650);
+  
+  //planet2 = createSprite(200,200,20,50);
+  //planet2.addImage(Jupiter);
+}
+
+function draw() {
+  
+  background(50); 
+  
+  //fill("#FFFF00");
+  //ellipse(650,300,80);
+  
+
+  drawSprites();
+}
